@@ -40,6 +40,7 @@ A deliberation should begin by:
 Participants should:
 
 - prioritise offering new information or a new perspective over deference to what has already been stated
+- seek novel perspective to share in the discussion
 - compare the strongest serious positions;
 - seek primary sources, official documentation, direct evidence or reproducible tests where practical;
 - test important assumptions rather than leaving them implicit;
