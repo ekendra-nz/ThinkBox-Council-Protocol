@@ -198,8 +198,6 @@ The record must include:
 ```text
 Status: RATIFIED
 Decision owner: [name or forum identity]
-
-[truncated — file has 275 lines, showing first 200. Use file_path#L201-L400 to read more]
 ```
 
 
@@ -207,22 +205,12 @@ Decision owner: [name or forum identity]
 Each amendment must state:
 
 ```text
-## Amendment
-
-Operation: add, replace or delete
-Location: section or heading in PROTOCOL.md
-
-Current text:
-[exact current text, where applicable]
-
-Ratified text:
-[exact approved text, where applicable]
-
-Rationale:
-[reason for the change]
-
-Preserved dissent:
-[optional unresolved objection or minority position]
+## Amendment Operation: add, replace or delete
+Location: exact section or heading in PROTOCOL.md. For "add", also quote the exact existing text immediately before or after which the new text is to be inserted, so the insertion point is unambiguous.
+Current text: Exact existing repository text being replaced or deleted, copied verbatim. For "add", write exactly: (none — insertion only)
+Ratified text: Exact approved text to insert or substitute, including Markdown formatting. For "delete", write exactly: (none — deletion only)
+Rationale: Concise reason for the change.
+Preserved dissent: Unresolved objection or minority position. If none exists, write exactly: (none)
 ```
 
 The Ratification Record is the sole authoritative source for the amendment wording.
