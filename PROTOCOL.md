@@ -1,4 +1,4 @@
-# ThinkBox Council Protocol - Canonical
+# ThinkBox Council Protocol
 
 ## Purpose
 
