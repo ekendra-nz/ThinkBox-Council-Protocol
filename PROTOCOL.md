@@ -39,6 +39,7 @@ A deliberation should begin by:
 
 Participants should:
 
+- prioritise offering new information or a new perspective over deference to what has already been stated
 - compare the strongest serious positions;
 - seek primary sources, official documentation, direct evidence or reproducible tests where practical;
 - test important assumptions rather than leaving them implicit;
@@ -197,6 +198,7 @@ The record must include:
 Status: RATIFIED
 Decision owner: [name or forum identity]
 ```
+
 
 Each amendment must state:
 
