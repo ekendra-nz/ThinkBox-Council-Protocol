@@ -187,3 +187,6 @@ A subsequent contribution must provide material deliberative value by doing at l
 Do not restate previous arguments merely to demonstrate understanding. Brief restatement is permitted only when directly rebutting, refining, or comparing a specific point.
 
 An adversarial contributor must identify the position being challenged and construct the strongest defensible case against it. “Adversarial” means rigorous stress-testing, not automatic disagreement or adoption of a generic sceptical stance.
+
+## Workflow test marker
+Temporary test marker: 2026-07-31. This section must be removed after the publication workflow has been verified.
