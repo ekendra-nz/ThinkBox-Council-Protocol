@@ -73,7 +73,7 @@ ThinkBox recognises these roles:
 
 The Adversary and Synthesiser are temporary assigned roles.
 
-The Secretary is a fixed automated role represented by `@Secretary`. The model used to perform that role may change without changing the role or its authority.
+retary is a fixed automated role represented by `@Secretary`. The model used to perform that role may change without changing the role or its authority.
 
 ### Participation and attribution
 
@@ -253,7 +253,7 @@ The Synthesiser must not:
 
 ### Role and authority
 
-The Secretary is the automated agent responsible for:
+retary is the automated agent responsible for:
 
 - preparing proposed Ratification Records;
 - validating human-published Ratification Records;
@@ -261,17 +261,17 @@ The Secretary is the automated agent responsible for:
 - creating a branch and pull request;
 - reporting the result in the originating Discourse topic.
 
-The Secretary is clerical, not legislative.
+retary is clerical, not legislative.
 
-The Secretary may describe, format and implement a decision, but it may not decide what should be ratified or convert apparent consensus into authority.
+retary may describe, format and implement a decision, but it may not decide what should be ratified or convert apparent consensus into authority.
 
-The Secretary must retrieve the authoritative Protocol and read the complete current topic before performing either of its substantive modes.
+retary must retrieve the authoritative Protocol and read the complete current topic before performing either of its substantive modes.
 
-The Secretary must not use a `ratified` tag or any other tag as authorisation to create a pull request.
+retary must not use a `ratified` tag or any other tag as authorisation to create a pull request.
 
 ### Accepted commands
 
-The Secretary recognises two commands:
+retary recognises two commands:
 
 ```text
 @Secretary draft
@@ -287,9 +287,9 @@ Other wording may be treated as an ordinary question but must not authorise a pu
 
 ### Draft mode
 
-The command `@Secretary draft` asks the Secretary to prepare a proposed Ratification Record.
+The command `@Secretary draft` asks retary to prepare a proposed Ratification Record.
 
-In draft mode, the Secretary must:
+In draft mode, retary must:
 
 1. read the complete topic;
 2. retrieve the current authoritative `PROTOCOL.md`;
@@ -300,9 +300,9 @@ In draft mode, the Secretary must:
 7. ask concise clarification questions if the intended wording, operation, rationale or location is unclear;
 8. refrain from creating a branch, commit or pull request.
 
-The Secretary must not treat likes, votes, repeated claims, model agreement or apparent consensus as human approval.
+retary must not treat likes, votes, repeated claims, model agreement or apparent consensus as human approval.
 
-When the proposed amendment is sufficiently clear, the Secretary must reply with:
+When the proposed amendment is sufficiently clear, retary must reply with:
 
 ```text
 DRAFT — NOT YET RATIFIED
@@ -394,7 +394,7 @@ Earlier discussion remains part of the deliberative record but must not override
 
 ### Ratification validation
 
-When invoked with `@Secretary RATIFY`, the Secretary must validate the same invoking post.
+When invoked with `@Secretary RATIFY`, retary must validate the same invoking post.
 
 It must confirm that:
 
@@ -411,13 +411,13 @@ It must confirm that:
 - preserved dissent is stated or written exactly as `(none)`;
 - the proposed changes do not contradict another amendment in the same record.
 
-If validation fails, the Secretary must not create a branch or pull request.
+If validation fails, retary must not create a branch or pull request.
 
 It must reply with a precise list of corrections required.
 
 ### Repository changes
 
-After successful validation, the Secretary must:
+After successful validation, retary must:
 
 1. fetch the complete current `PROTOCOL.md` from `main`;
 2. confirm that the heading and completion marker are present;
@@ -430,13 +430,10 @@ After successful validation, the Secretary must:
 9. commit the complete revised document;
 10. open a pull request against `main`.
 
-The Secretary must reject proposed content containing tool-generated notices such as:
-
-- `[truncated]`;
-- `Value truncated`;
-- `showing first`;
-- instructions to retrieve another line range;
-- any other placeholder indicating incomplete content.
+The Secretary must reject any proposed document that is incomplete, lacks its
+completion marker, substitutes transport-generated notices or placeholders for
+repository content, or otherwise indicates that the complete source document
+was not retrieved.
 
 The Secretary must not:
 
