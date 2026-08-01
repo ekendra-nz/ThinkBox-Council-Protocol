@@ -333,6 +333,8 @@ A protocol amendment is ratified only when an authorised human decision owner pu
 
 The author of the post must be the stated decision owner or another human explicitly authorised by this Protocol.
 
+
+
 The required structure is:
 
 ```markdown
@@ -392,6 +394,8 @@ The human-authored Ratification Record is the sole authority for amendment wordi
 
 Earlier discussion remains part of the deliberative record but must not override, supplement or silently alter the Ratification Record.
 
+
+
 ### Ratification validation
 
 When invoked with `@Secretary RATIFY`, retary must validate the same invoking post.
@@ -429,6 +433,14 @@ After successful validation, retary must:
 8. create a new branch;
 9. commit the complete revised document;
 10. open a pull request against `main`.
+
+When processing an authorised @Secretary RATIFY invocation:
+
+1. Produce the complete revised PROTOCOL.md.
+2. Place the exact token {{RATIFICATION_TIMESTAMP_LINE}} as both the first and last nonblank line.
+3. Do not calculate, infer, copy, or supply a literal timestamp.
+4. Call the Ratify Protocol tool. The tool alone retrieves the invoking post's absolute created_at value, converts it to Pacific/Auckland time, inserts one identical literal line at both positions, validates the document and creates the pull request.
+5. If the tool rejects the invocation, report its exact diagnostic and do not claim that a pull request was created.
 
 The Secretary must reject any proposed document that is incomplete, lacks its
 completion marker, substitutes transport-generated notices or placeholders for
