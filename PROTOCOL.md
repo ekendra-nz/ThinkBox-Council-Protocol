@@ -1,5 +1,5 @@
-Protocol ratified: 2026-08-01 22:33:50 NZST
- 
+Protocol ratified: 2026-08-01 23:35:53 NZST
+
 # ThinkBox Council Protocol
 
 ## Purpose
@@ -14,9 +14,7 @@ The council exists to improve reasoning, expose weak assumptions, preserve meani
 
 ### Authority and instruction hierarchy
 
-The authoritative ThinkBox Council Protocol is `PROTOCOL.md` on the `main` branch of the `ThinkBox-Council-Protocol` repository.
-
-The synchronised Discourse Protocol post is a presentation copy. It is not an independent source of authority.
+The authoritative copy of the ThinkBox Council Protocol is `main/PROTOCOL.md` in the `ThinkBox-Council-Protocol` GitHub repository. The synchronised Discourse Protocol post is a presentation copy and is not an independent source of authority.
 
 Instructions apply in this order:
 
@@ -571,5 +569,5 @@ The repository’s `main` branch remains the source of truth. The canonical foru
 - **Repository write path:**  
   Pull request only; human merge required.
 
-<!-- END THINKBOX COUNCIL PROTOCOL --> 
-Protocol ratified: 2026-08-01 22:33:50 NZST
+<!-- END THINKBOX COUNCIL PROTOCOL -->
+Protocol ratified: 2026-08-01 23:35:53 NZST
