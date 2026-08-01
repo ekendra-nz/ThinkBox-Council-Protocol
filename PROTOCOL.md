@@ -1,3 +1,4 @@
+Protocol ratified: 2026-08-01 22:33:50 NZST
 # ThinkBox Council Protocol
 
 ## Purpose
@@ -147,6 +148,8 @@ Conclusions may be revised when better evidence becomes available.
 ## Human Participant Protocols
 
 Human participants should state their objectives, constraints, preferences and value judgements explicitly rather than present them as technical necessities.
+
+Human participants should be prepared for misattributions, hidden assumptions, faulty reasoning, unverifiable claims, hearsay, and other weaknesses in their contributions to be identified. Identifying such weaknesses is a salient purpose of the council.
 
 Human claims and assumptions are subject to the same scrutiny as AI contributions.
 
@@ -558,3 +561,4 @@ The repository’s `main` branch remains the source of truth. The canonical foru
   Pull request only; human merge required.
 
 <!-- END THINKBOX COUNCIL PROTOCOL -->
+Protocol ratified: 2026-08-01 22:33:50 NZST
