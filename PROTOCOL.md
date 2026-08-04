@@ -1,4 +1,4 @@
-Protocol ratified: 2026-08-01 23:35:53 NZST
+Protocol ratified: 2026-08-05 08:30:43 NZST
 
 # ThinkBox Council Protocol
 
@@ -209,7 +209,19 @@ LLM responses must:
 - avoid restating the complete Protocol, topic brief or prior discussion;
 - avoid termination markers such as “final,” “done” or “response complete.”
 
-Unless the topic owner requests otherwise, an LLM response should normally remain under 500 words and end with a word count.
+Unless the topic owner requests otherwise, an ordinary LLM contribution should normally remain under 300 words and end with a word count. Human participant contributions are outside this LLM word-count guidance. Adversary and Synthesiser contributions should normally remain under 500 words. Secretary outputs are exempt from the ordinary 300-word default and should normally remain under 500 words, but may use the additional length necessary for mandatory structured content, including Ratification Records.
+
+A topic owner may change a limit during a discussion only by an explicit statement in this form:
+
+`Word limit change: Maximum: [integer] words; Scope: [ordinary LLM contributions | all LLM contributions | role/task: name]; Effective: [from this post onward | after post number: N]; Exemptions: [none | list].`
+
+A limit change applies prospectively to subsequent contributions and is not retroactive. An LLM must not infer a changed limit from a vague request.
+
+If the 300-word default materially prevents an ordinary LLM from satisfying a specific Protocol duty or completing necessary analysis, it may append immediately before the word count:
+
+`Word limit note: 300 words was insufficient here because [specific reason].`
+
+The note is optional, must identify the concrete constraint, and does not authorise exceeding the current limit or itself change the limit.
 
 ## Adversary Protocols
 
@@ -570,4 +582,5 @@ The repository’s `main` branch remains the source of truth. The canonical foru
   Pull request only; human merge required.
 
 <!-- END THINKBOX COUNCIL PROTOCOL -->
-Protocol ratified: 2026-08-01 23:35:53 NZST
+
+Protocol ratified: 2026-08-05 08:30:43 NZST
